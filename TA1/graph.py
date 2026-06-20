@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 from scipy import stats
 
 # 1. Baca data dari file CSV menjadi tabel
-df = pd.read_csv("data_regresi.csv")
+df = pd.read_csv("data.csv")
 
 # 2. Pengaturan warna dan ukuran huruf
 plt.rcParams.update({"font.size": 10, "font.family": "DejaVu Sans"})
